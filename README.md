@@ -16,34 +16,6 @@ Middleware: Contains middleware functions for error handling and request process
 Folder Structure
 The folder structure is organized to reflect the Clean Architecture layers:
 
-src/
-├── business/
-│   └── usecases/
-│       ├── CreateTaskUseCase.ts
-│       ├── DeleteTaskUseCase.ts
-│       ├── GetTaskUseCase.ts
-│       ├── ListTasksUseCase.ts
-│       └── UpdateTaskUseCase.ts
-├── core/
-│   ├── models/
-│   │   └── Task.ts
-│   ├── repo/
-│   │   └── TaskRepository.ts
-│   └── usecases/
-│       └── TaskUseCases.ts
-├── data/
-│   └── repo/
-│       └── TaskRepositoryImpl.ts
-├── middleware/
-│   └── errorHandler.ts
-├── presentation/
-│   ├── controllers/
-│   │   └── TaskController.ts
-│   └── routes/
-│       └── taskRoutes.ts
-├── app.ts
-└── index.ts
-
 Getting Started
 Prerequisites
 Node.js (version 14 or above)
